@@ -1,0 +1,252 @@
+local _101Hub = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local Loading = Instance.new("TextLabel")
+local Line2 = Instance.new("Frame")
+local Loaded = Instance.new("TextLabel")
+local Huub101 = Instance.new("TextLabel")
+local Line4 = Instance.new("Frame")
+local Line1 = Instance.new("Frame")
+local Line3 = Instance.new("Frame")
+local H101 = Instance.new("TextLabel")
+local Hu101 = Instance.new("TextLabel")
+local Hub1 = Instance.new("TextLabel")
+local Hub101 = Instance.new("TextLabel")
+local Hub10 = Instance.new("TextLabel")
+
+_101Hub.Name = "101 Hub"
+_101Hub.Parent = game.CoreGui
+
+Frame.Name = "Frame"
+Frame.Parent = _101Hub
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.ClipsDescendants = true
+Frame.Position = UDim2.new(0.377999991, 0, 0.998951435, 0)
+Frame.Size = UDim2.new(0.243000001, 0, 0.0549999997, 0)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+Loading.Name = "Loading"
+Loading.Parent = Frame
+Loading.BackgroundColor3 = Color3.fromRGB(81, 255, 78)
+Loading.BackgroundTransparency = 1.000
+Loading.BorderColor3 = Color3.fromRGB(63, 43, 32)
+Loading.Position = UDim2.new(0.180755273, 0, 0.355979443, 0)
+Loading.Size = UDim2.new(0.638424158, 0, 0.279371768, 0)
+Loading.Font = Enum.Font.SourceSans
+Loading.Text = "Loading 101 Hub"
+Loading.TextColor3 = Color3.fromRGB(38, 158, 42)
+Loading.TextSize = 35.000
+Loading.TextTransparency = 1.000
+
+Line2.Name = "Line2"
+Line2.Parent = Frame
+Line2.BackgroundColor3 = Color3.fromRGB(0, 132, 0)
+Line2.Position = UDim2.new(0.944808424, 0, 0.0599998944, 0)
+Line2.Size = UDim2.new(0.0342360847, 0, 0.0430000015, 0)
+Line2.Visible = false
+
+Loaded.Name = "Loaded"
+Loaded.Parent = Frame
+Loaded.BackgroundColor3 = Color3.fromRGB(81, 255, 78)
+Loaded.BackgroundTransparency = 1.000
+Loaded.BorderColor3 = Color3.fromRGB(63, 43, 32)
+Loaded.Position = UDim2.new(0.180999994, 0, 0.356000006, 0)
+Loaded.Size = UDim2.new(0.638000011, 0, 0.279000014, 0)
+Loaded.Font = Enum.Font.SourceSans
+Loaded.Text = ""
+Loaded.TextColor3 = Color3.fromRGB(38, 158, 42)
+Loaded.TextSize = 35.000
+
+Huub101.Name = "Huub101"
+Huub101.Parent = Frame
+Huub101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Huub101.BackgroundTransparency = 1.000
+Huub101.Position = UDim2.new(0.812352657, 0, -0.838481903, 0)
+Huub101.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+Huub101.Font = Enum.Font.SourceSans
+Huub101.Text = "b"
+Huub101.TextColor3 = Color3.fromRGB(67, 157, 66)
+Huub101.TextSize = 35.000
+
+Line4.Name = "Line4"
+Line4.Parent = Frame
+Line4.BackgroundColor3 = Color3.fromRGB(0, 132, 0)
+Line4.Position = UDim2.new(0.944808424, 0, 0.888098121, 0)
+Line4.Size = UDim2.new(0.0342360847, 0, 0.0430000015, 0)
+Line4.Visible = false
+
+Line1.Name = "Line1"
+Line1.Parent = Frame
+Line1.BackgroundColor3 = Color3.fromRGB(0, 132, 0)
+Line1.Position = UDim2.new(0.0282353237, 0, 0.0599998944, 0)
+Line1.Size = UDim2.new(0.034000136, 0, 0.0428326651, 0)
+Line1.Visible = false
+
+Line3.Name = "Line3"
+Line3.Parent = Frame
+Line3.BackgroundColor3 = Color3.fromRGB(0, 132, 0)
+Line3.Position = UDim2.new(0.0282354187, 0, 0.888097882, 0)
+Line3.Size = UDim2.new(0.0340000018, 0, 0.0430000015, 0)
+Line3.Visible = false
+
+H101.Name = "H101"
+H101.Parent = Frame
+H101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+H101.BackgroundTransparency = 1.000
+H101.Position = UDim2.new(0.635989487, 0, -0.838481903, 0)
+H101.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+H101.Font = Enum.Font.SourceSans
+H101.Text = "H"
+H101.TextColor3 = Color3.fromRGB(67, 157, 66)
+H101.TextSize = 35.000
+
+Hu101.Name = "Hu101"
+Hu101.Parent = Frame
+Hu101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hu101.BackgroundTransparency = 1.000
+Hu101.Position = UDim2.new(0.723282158, 0, 0.992939115, 0)
+Hu101.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+Hu101.Font = Enum.Font.SourceSans
+Hu101.Text = "u"
+Hu101.TextColor3 = Color3.fromRGB(67, 157, 66)
+Hu101.TextSize = 35.000
+
+Hub1.Name = "Hub1"
+Hub1.Parent = Frame
+Hub1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub1.BackgroundTransparency = 1.000
+Hub1.Position = UDim2.new(0.0935278609, 0, 1.14739633, 0)
+Hub1.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+Hub1.Font = Enum.Font.SourceSans
+Hub1.Text = "1"
+Hub1.TextColor3 = Color3.fromRGB(67, 157, 66)
+Hub1.TextSize = 35.000
+
+Hub101.Name = "Hub101"
+Hub101.Parent = Frame
+Hub101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub101.BackgroundTransparency = 1.000
+Hub101.Position = UDim2.new(0.268113226, 0, 0.992939115, 0)
+Hub101.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+Hub101.Font = Enum.Font.SourceSans
+Hub101.Text = "1"
+Hub101.TextColor3 = Color3.fromRGB(67, 157, 66)
+Hub101.TextSize = 35.000
+
+Hub10.Name = "Hub10"
+Hub10.Parent = Frame
+Hub10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub10.BackgroundTransparency = 1.000
+Hub10.Position = UDim2.new(0.182598352, 0, -0.838481903, 0)
+Hub10.Size = UDim2.new(0.0872274116, 0, 0.819999993, 0)
+Hub10.Font = Enum.Font.SourceSans
+Hub10.Text = "0"
+Hub10.TextColor3 = Color3.fromRGB(67, 157, 66)
+Hub10.TextSize = 35.000
+
+-- Scripts:
+
+local function YSMT_fake_script() -- Frame.Main 
+	local script = Instance.new('LocalScript', Frame)
+
+	wait(1)
+	
+	script.Parent.Hub1.Visible = true
+	script.Parent.Hub10.Visible = true
+	script.Parent.Hub101.Visible = true
+	script.Parent.H101.Visible = true
+	script.Parent.Hu101.Visible = true
+	script.Parent.Huub101.Visible = true
+	
+	script.Parent:TweenPosition(UDim2.new(0.378, 0,0.414, 0), "Out", 1)
+	script.Parent.Hub1:TweenPosition(UDim2.new(0.097, 0,0.088, 0), "In", 2.5)
+	script.Parent.Hub10:TweenPosition(UDim2.new(0.183, 0,0.088, 0), "In", 2.5)
+	script.Parent.Hub101:TweenPosition(UDim2.new(0.268, 0,0.088, 0), "In", 2.5)
+	script.Parent.H101:TweenPosition(UDim2.new(0.639, 0,0.088, 0), "In", 2.5)
+	script.Parent.Hu101:TweenPosition(UDim2.new(0.726, 0,0.088, 0), "In", 2.5)
+	script.Parent.Huub101:TweenPosition(UDim2.new(0.815, 0,0.088, 0), "In", 2.5)
+	
+	wait(2)
+	
+	script.Parent:TweenSize(UDim2.new(0.243, 0,0.17, 0), "Out", "Bounce", 1.5)
+	
+	wait(1)
+			for i = 0, 1, 0.1 do
+	       	 	script.Parent.Hub1.TextTransparency = i
+				script.Parent.Hub10.TextTransparency = i
+				script.Parent.Hub101.TextTransparency = i
+				script.Parent.H101.TextTransparency = i
+				script.Parent.Hu101.TextTransparency = i
+				script.Parent.Huub101.TextTransparency = i
+		wait()
+	end
+	
+	for i = 1, 0 ,-0.1 do
+			script.Parent.Loading.TextTransparency = i
+		wait()
+	end
+	
+	wait(1)
+	
+	for i = 0, 1, 0.1 do
+		      script.Parent.Loading.TextTransparency = i
+		wait()
+	end
+	
+	script.Parent.Loaded.Visible = true
+				local text = "101 Loaded Successfully"
+				for i = 1, #text do
+				script.Parent.Loaded.Text = string.sub(text, 1, i)
+		wait()	
+	end
+	
+	script.Parent.Line1.Visible = true
+	
+	script.Parent.Line1:TweenSize(UDim2.new(0.44, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line2.Visible = true
+	
+	script.Parent.Line2:TweenSize(UDim2.new(-0.44, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line3.Visible = true
+	
+	script.Parent.Line3:TweenSize(UDim2.new(0.44, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line4.Visible = true
+	
+	script.Parent.Line4:TweenSize(UDim2.new(-0.44, 0,0.043, 0), "Out", 1.5)
+	
+	wait(2)
+	
+	script.Parent.Line2.Visible = true
+	
+	script.Parent.Line2:TweenSize(UDim2.new(0.034, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line1.Visible = true
+	
+	script.Parent.Line1:TweenSize(UDim2.new(0.034, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line3.Visible = true
+	
+	script.Parent.Line3:TweenSize(UDim2.new(0.034, 0,0.043, 0), "Out", 1.5)
+	
+	script.Parent.Line4.Visible = true
+	
+	script.Parent.Line4:TweenSize(UDim2.new(0.034, 0,0.043, 0), "Out", 1.5)
+	
+	wait(1)
+				for i = 0, 1, 0.1 do
+	       	 		script.Parent.ImageTransparency = i
+						script.Parent.Loaded.TextTransparency = i
+						script.Parent.Line1.BackgroundTransparency = i
+						script.Parent.Line2.BackgroundTransparency = i
+						script.Parent.Line3.BackgroundTransparency = i
+						script.Parent.Line4.BackgroundTransparency = i
+		   wait()
+	end
+end
+coroutine.wrap(YSMT_fake_script)()
