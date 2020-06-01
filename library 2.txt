@@ -1,5 +1,5 @@
 
-local Keylime = loadstring(game:HttpGet('https://strazos.xyz/files/5f83c2d2ce76f33d75fdb818.txt'))()
+local Keylime = loadstring(game:HttpGet('https://github.com/walyier/project/raw/master/library.txt'))()
 
 local first_f = Keylime.new("DM")
 local second_f = Keylime.new("DM")
